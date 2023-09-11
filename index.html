@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Visual</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header class="header-section">
+        <div class="titulo-header">
+            <h1>A arte da fotografia ao seu alcance</h1>
+        </div>
+        <div class="search-input">
+            <input type="text" autocomplete="off" id="search-input" name="search" class="search-box"
+                placeholder="Busque por uma imagem">
+            <button class="search-btn" type="button" onclick="searchImages()">Pesquisar</button>
+        </div>
+    </header>
+
+    <div class="image-popup hide">
+        <button class="close-btn"><img src="./img/botao-x.png" alt=""></button>
+        <a href="#" class="download-btn">download</a>
+        <img src="./img/imagem-estrada.jpg" alt="" class="popup-image">
+        <button class="controls pre-btn"><img src="./img/seta-esquerda-24.png" alt=""></button>
+        <button class="controls nxt-btn"><img src="./img/seta-direita-24.png" alt=""></button>
+    </div>
+
+    <section class=" gallery">
+    </section>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
